@@ -1,0 +1,118 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  letter-spacing: .2em; }
+
+#playTable {
+  background-image: url("../felt.jpg");
+  height: 250px;
+  width: 100%;
+  background-repeat: none; }
+
+#siteContainer:first-child {
+  height: 120px; }
+
+#top {
+  background-image: linear-gradient(to bottom, #aaa, 20%, white); }
+
+#scoreboard > h3 {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0; }
+
+#player1Control {
+  height: 100px; }
+
+#playingArea {
+  height: 300px; }
+
+#player2Control {
+  height: 100px; }
+
+#player1score {
+  border: 1px solid black;
+  margin-left: 30px;
+  height: 40px;
+  width: 30px;
+  display: inline-block; }
+
+#player2score {
+  border: 1px solid black;
+  margin-left: 30px;
+  height: 40px;
+  width: 30px;
+  display: inline-block; }
+
+#cardsRemaining {
+  border: 1px solid black;
+  margin-left: 30px;
+  height: 40px;
+  width: 30px;
+  display: inline-block; }
+
+#p1ScoreLabel {
+  display: block;
+  text-align: center; }
+
+#p2ScoreLabel {
+  display: block;
+  text-align: center; }
+
+#playGame {
+  margin-left: 250px;
+  margin-top: 50px; }
+
+#player1score > h6 {
+  text-align: center; }
+
+#player2score > h6 {
+  text-align: center; }
+
+.player1Thumb {
+  float: right;
+  margin-top: 40px;
+  box-shadow: 2px 2px 2px black; }
+
+.player2Thumb > img {
+  margin-top: 80px;
+  box-shadow: 2px 2px 2px black; }
+
+#cardsRemaining > h6 {
+  text-align: center; }
+
+#player1Control > h2 {
+  text-align: center; }
+
+#player1ShowCard {
+  margin-left: 135px; }
+
+#player2Control > h2 {
+  text-align: center; }
+
+#player2ShowCard {
+  margin-left: 135px; }
+
+@media screen and (min-width: 300px) {
+  #p1ScoreLabel {
+    display: block;
+    text-align: left; }
+
+  #cardsRemainingLabel {
+    display: block; }
+
+  #player1score {
+    border: 1px solid black;
+    margin-left: 30px;
+    height: 40px;
+    width: 30px; }
+
+  #player2score {
+    border: 1px solid black;
+    margin-left: 30px;
+    height: 40px;
+    width: 30px; }
+
+  #p2ScoreLabel {
+    display: block;
+    text-align: left; } }
+
+/*# sourceMappingURL=main.css.map */
