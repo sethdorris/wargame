@@ -10,7 +10,7 @@ requirejs.config({
     'q': '../lib/bower_components/q/q',
     'datejs': '../lib/bower_components/datejs/build/production/date.min',
     'es6': '../lib/bower_components/requirejs-babel/es6',
-    'babel': '../lib/bower_components/requirejs-babel/babel-5.8.22.min.js'
+    'babel': '../lib/bower_components/requirejs-babel/babel-5.8.22.min'
   },
   shim: {
     'bootstrap': ['jquery'],
@@ -21,7 +21,7 @@ requirejs.config({
 });
 
 requirejs(
-["core-dependencies", "core-logic", "auth"], 
+["es6!core-dependencies", "core-logic", "auth"], 
 function (coreDependencies, coreLogic, auth) {
 
     var ref = new Firebase("https://nss-weather-app.firebaseio.com");
